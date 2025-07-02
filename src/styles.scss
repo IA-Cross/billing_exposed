@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Inter, "Noto Sans", system-ui, sans-serif;
+  }
+  
+  body {
+    @apply bg-slate-50;
+  }
+}
+
+.form-input {
+  &:focus {
+    --tw-ring-color: transparent;
+  }
+} 
